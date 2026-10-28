@@ -1,0 +1,25 @@
+---
+description: Write migration files and stop. The human applies schema to the database.
+alwaysApply: true
+---
+
+# Leave migrations unapplied
+
+Write or edit the migration file when the schema needs to change. Stop there.
+
+The human applies it. Do not run migrate, upgrade, rollback, seed-against-schema,
+or any other command that applies or reverts schema on a database — including
+local, Docker, and "just to test".
+
+```
+# Do
+rails generate migration AddIndexToUsers
+# then stop
+
+# Don't
+rails db:migrate
+alembic upgrade head
+prisma migrate deploy
+python manage.py migrate
+npm run db:migrate
+```

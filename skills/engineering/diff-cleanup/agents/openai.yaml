@@ -1,0 +1,3 @@
+interface:
+  display_name: "Diff Cleanup"
+  short_description: "Strip unneeded code from a diff; leave it readable and suite-green"

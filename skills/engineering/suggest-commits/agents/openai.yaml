@@ -1,0 +1,3 @@
+interface:
+  display_name: "Suggest Commits"
+  short_description: "Propose commit messages and staging groups from the current diff"
