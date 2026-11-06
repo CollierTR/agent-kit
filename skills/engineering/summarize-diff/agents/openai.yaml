@@ -1,0 +1,3 @@
+interface:
+  display_name: "Summarize Diff"
+  short_description: "Explain a git diff in simple language"
