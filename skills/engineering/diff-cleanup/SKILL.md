@@ -32,7 +32,7 @@ A line is **unneeded** when deleting it would not change the behavior the change
 - Dead code, unused imports, unused exports, unused parameters
 - Debug leftovers (`console.log`, `debugger`, stray prints)
 - Commented-out code
-- Scaffold from the implementation (WIP notes, finished TODOs, always-true flags)
+- Scaffold from the implementation (WIP notes, finished TODOs, always-true flags, `REFACTOR:` scope markers from refactor-scope)
 - Speculative generality: abstractions, params, or hooks the change does not use
 - Duplicate logic that can collapse into one place
 - Comments that restate the next line

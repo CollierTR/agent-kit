@@ -1,0 +1,3 @@
+interface:
+  display_name: "Refactor Scope"
+  short_description: "Mark a refactor's blast radius with searchable REFACTOR comments"
