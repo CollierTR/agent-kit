@@ -22,6 +22,7 @@ rules/                Cursor rules (source; link into a project or ~/.cursor/rul
 | `summarize-diff` | Explain a branch or working-tree diff in simple language: what changed and why it matters. |
 | `suggest-commits` | Propose commit messages and staging groups from the current diff, matched to the repo's history style. |
 | `prototype` | Build throwaway logic or UI prototypes to answer a design question. |
+| `color-picker` | Throwaway floating color picker for one live target; apply the chosen hex and delete the scaffolding. |
 
 ### Productivity
 
